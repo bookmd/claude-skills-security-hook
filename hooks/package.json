@@ -1,0 +1,35 @@
+{
+  "name": "claude-security-hooks",
+  "version": "1.0.0",
+  "description": "Security hooks for Claude Skills in Cursor IDE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "claude",
+    "cursor",
+    "security",
+    "hooks",
+    "ai",
+    "skills"
+  ],
+  "author": "BookMD",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bookmd/claude-skills-security-hook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bookmd/claude-skills-security-hook/issues"
+  },
+  "homepage": "https://github.com/bookmd/claude-skills-security-hook#readme",
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.2.20"
+  }
+}

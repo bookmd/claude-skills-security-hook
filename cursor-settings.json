@@ -1,0 +1,17 @@
+{
+    "claude": {
+      "hooks": {
+        "PreToolUse": [
+          {
+            "matcher": "",
+            "hooks": [
+              {
+                "type": "command",
+                "command": "node .claude/hooks/index.js"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
